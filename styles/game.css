@@ -1,0 +1,17 @@
+#header {
+    width: 100%;
+    height: 50px;
+    background-color: aliceblue;
+    padding: 0px;
+}
+
+#game-window {
+    width: 960px;
+    height: 500px;
+    background-color: aquamarine;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+#sidebar{
+    top: 50px;
+}
