@@ -1,47 +1,9 @@
-html {
-    height: 100%;
-    box-sizing: border-box;    
-}
-
-body {
-	display: flex; /*allows the use of FLEX thoses PECS*/
-	flex-direction: column; /*orients up and down */ 
-	align-items: center;
+* {
 	margin: 0px;
-    overflow: auto;
-    position: relative;
 }
 
-#burg {
-    width: 50px;
-    height: 50px;
-}
-
-#sidebar { /*   # is for id     */
-	position: fixed;
-	left: 0px;
-}
-
-#sidebar-hidden {
-    visibility: hidden;
-    position: fixed;
-    top: inherit;
-    width: 200px;
-    z-index: -1;
-    text-align: right;
-    background-color: lightgray;
-    padding-right: 20px;
-}
-
-#content {
-	display: flex;
-	flex-direction: row;
-	width: 960px;
-}
-
-#footer {
-    position: absolute;
-    height: 2em;
-    bottom: 0px;
-    box-sizing: border-box;
+html, body {
+	width: 1024px;
+    height: 100%;
+	margin: auto; 
 }

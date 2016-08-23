@@ -1,12 +1,30 @@
 #header {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    background-color: black;
-    width: 100%;
-    z-index: 1;
+	width: 1024px;
+	height: 250px;
+	background-color: #089;
 }
 
-#sidebar {
-    top: 224px;
+#content {
+	color: #FFF;
+	width: 1024px;
+
+	background-color:#3FF;	
+}
+
+#page-wrap {
+	min-height: 100%;
+	margin-bottom: -142px;
+}
+
+#page-wrap:after {
+	content: "";
+	display:block;
+	height: 142px;	
+}
+
+
+#footer {
+	width: 1024px;
+	height: 142px;
+	background-color: #003;	
 }
