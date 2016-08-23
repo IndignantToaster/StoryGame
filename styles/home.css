@@ -1,30 +1,3 @@
-#header {
-	width: 1024px;
-	height: 250px;
-	background-color: #089;
-}
-
-#content {
-	color: #FFF;
-	width: 1024px;
-
-	background-color:#3FF;	
-}
-
-#page-wrap {
-	min-height: 100%;
-	margin-bottom: -142px;
-}
-
-#page-wrap:after {
-	content: "";
-	display:block;
-	height: 142px;	
-}
-
-
-#footer {
-	width: 1024px;
-	height: 142px;
-	background-color: #003;	
+#banner {
+	height: 200px;
 }
